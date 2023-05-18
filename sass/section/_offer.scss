@@ -1,0 +1,19 @@
+.offer {
+  padding-top: 241px;
+  padding-bottom: 161px;
+  background: url("../../img/photo-to-main-offer.jpg") center / cover;
+  color: #ffffff;
+  line-height: 1.5;
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0 0 55px;
+    max-width: 454px;
+  }
+  &__desc {
+    font-weight: 400;
+    font-size: 24px;
+    max-width: 300px;
+    margin-bottom: 55px;
+  }
+}

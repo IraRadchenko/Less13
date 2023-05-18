@@ -1,0 +1,24 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  max-height: 40px;
+  box-sizing: border-box;
+  background-color: var(--accent-dark-color-color);
+  border: 3px solid transparent;
+  border-radius: var(--border-radius);
+  padding-top: 7px;
+  padding-bottom: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: transparent;
+    border: 3px solid var(--accent-dark-color-color);
+  }
+}
