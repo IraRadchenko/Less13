@@ -625,4 +625,81 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
+.response {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.response__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  margin: 0;
+}
+.response__body {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.response__btn {
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.response__card {
+  box-sizing: border-box;
+  max-width: 600px;
+  background-color: var(--card-bg-color);
+  margin: 0 43px;
+  text-align: center;
+  padding: 20px 25px;
+}
+.response__card__title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 32px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.response__card__desk {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.data {
+  background-image: url("../../img/counter-bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 28px;
+  color: #ffffff;
+}
+.data__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  margin: 0;
+}
+.data__body {
+  display: flex;
+  justify-content: space-between;
+  gap: 84px;
+  max-width: 334px;
+  margin-top: 54px;
+}
+
+.data__card__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
