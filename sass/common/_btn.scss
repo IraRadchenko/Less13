@@ -1,4 +1,5 @@
 .btn {
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,10 +16,11 @@
   font-size: 18px;
   line-height: 1.33;
   color: #ffffff;
-  text-transform: uppercase;
+  cursor: pointer;
 
   &:hover {
     background-color: transparent;
     border: 3px solid var(--accent-dark-color-color);
+    color: var(--accent-dark-color-color);
   }
 }

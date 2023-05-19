@@ -95,11 +95,63 @@
         </section>
 
         <section class="about center">
+           <div class="about__desk">
+               <h2 class="about__desk__title">
+                   Немного обо мне
+               </h2>
+               <p class="about__desk__text">
+                   Далеко-далеко за словесными горами в стране
+                   гласных и согласных живут рыбные тексты.
+                   Вдали от всех живут они в буквенных домах на берегу
+                   Семантика большого языкового океана.
+                   Маленький ручеек Даль журчит по всей стране и
+                   обеспечивает ее всеми необходимыми правилами.
+                   Эта парадигматическая страна, в которой жаренные
+                   члены предложения залетают прямо.
+               </p>
+               <div class="about__desk__btn">
+                   <button class="btn btn_left">
+                       Задать вопрос
+                   </button>
+                   <button class="btn">
+                       Хочу консультацию
+                   </button>
+               </div>
+           </div>
+            <img class="about__photo" src="img/about-photo.jpg" alt="photo">
+        </section>
+        <section class="form center">
+            <h2 class="form__title">
+                Записаться на прием
+            </h2>
+            <form class="form__body" action="#" method="post" name="appointment">
 
+                <div class="form__input">
+                    <input class="form__input__item box1" type="text" name="first name"
+                           placeholder="Ваше имя *"
+                           required
+                           maxlength="12"/>
+                    <textarea class="form__input__item box2" name="desire" id="desire"
+                           placeholder="Пожелания"></textarea>
+                    <input class="form__input__item box3" type="tel" name="your tel"
+                           placeholder="Ваш телефон *"
+                           required
+                           maxlength="10"/>
+                    <select class="form__input__item box4" name="topic" id="topic" >
+                        <option value="1">Тема встречи *</option>
+                        <option value="2">first</option>
+                        <option value="3">second</option>
+                    </select>
+                </div>
+                <input id="consent" type="checkbox" name="consent" value="consent">
+                <label for="consent">Я согласен с политикой конфиденциальности</label>
+                <button class="form__btn btn" type="submit">
+                    Отправить
+                </button>
+            </form>
         </section>
     </main>
-
-
-
 </body>
+
+
 </html>
