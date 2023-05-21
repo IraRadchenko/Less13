@@ -31,8 +31,8 @@
       font-size: 18px;
       line-height: 24px;
       color: #000000;
-      padding-top: 8px;
-      padding-bottom: 8px;
+      padding-top: 6px;
+      padding-bottom: 6px;
       padding-left: 20px;
     }
   }
@@ -58,6 +58,9 @@
   align-items: center;
   user-select: none;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
   color: var(--accent-dark-color-color);
   margin-bottom: 40px;
 
