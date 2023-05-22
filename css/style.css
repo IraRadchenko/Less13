@@ -348,6 +348,7 @@ template {
 }
 body {
   font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -459,9 +460,8 @@ h1, h2, h3, h4, h5, h6 {
 .offer {
   padding-top: 241px;
   padding-bottom: 161px;
-  background: url("../../img/photo-to-main-offer.jpg") center/cover;
+  background: url("../img/photo-to-main-offer.jpg") center/cover;
   color: #ffffff;
-  line-height: 1.5;
 }
 .offer__title {
   font-weight: 700;
@@ -501,13 +501,12 @@ h1, h2, h3, h4, h5, h6 {
 .repair__card__desk {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   margin-top: 20px;
   margin-bottom: 37px;
 }
 
 .about {
-  background-image: url("../../img/about-bg.jpg");
+  background-image: url("../img/about-bg.jpg");
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -519,7 +518,6 @@ h1, h2, h3, h4, h5, h6 {
 .about__desk__title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.5;
   color: #FFFFFF;
   margin-top: 0;
   margin-bottom: 50px;
@@ -527,7 +525,6 @@ h1, h2, h3, h4, h5, h6 {
 .about__desk__text {
   font-weight: 700;
   font-size: 16px;
-  line-height: 24px;
   color: #FFFFFF;
 }
 .about__desk__btn {
@@ -558,7 +555,6 @@ h1, h2, h3, h4, h5, h6 {
 .form__title {
   font-weight: 700;
   font-size: 48px;
-  line-height: 72px;
   text-align: center;
   color: #000000;
   margin: 0;
@@ -575,7 +571,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #000000;
   border-radius: var(--border-radius);
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.333;
   color: #000000;
   padding-top: 6px;
   padding-bottom: 6px;
@@ -592,7 +588,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .box4 {
   appearance: none;
-  background: url(../../img/sort-down-solid.svg) no-repeat right;
+  background: url(../img/sort-down-solid.svg) no-repeat right;
   background-position-x: calc(100% - 8px);
   background-position-y: calc(100% - 6px);
 }
@@ -600,7 +596,7 @@ h1, h2, h3, h4, h5, h6 {
 .indicator {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../../img/counter bg.jpg");
+  background-image: url("../img/counter bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -681,7 +677,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .data {
-  background-image: url("../../img/counter-bg-1.jpg");
+  background-image: url("../img/counter-bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 60px;
@@ -763,7 +759,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 128px;
   display: flex;
   justify-content: right;
-  background-image: url("../../img/map.jpg");
+  background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
