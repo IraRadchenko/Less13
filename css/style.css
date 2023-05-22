@@ -385,6 +385,36 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--accent-dark-color-color);
 }
 
+.consent-check {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.consent-check + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: var(--accent-dark-color-color);
+  margin-bottom: 40px;
+}
+.consent-check + label::before {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border: 2px solid #ffffff;
+  outline: 1px solid var(--accent-dark-color-color);
+  background-color: #ffffff;
+  margin-right: 17px;
+}
+.consent-check:checked + label::before {
+  background-color: var(--accent-dark-color-color);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -560,37 +590,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 118px;
 }
 
-#consent {
-  position: absolute;
-  z-index: -1;
-  opacity: 0;
-}
-
-#consent + label {
-  display: inline-flex;
-  align-items: center;
-  user-select: none;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 30px;
-  color: var(--accent-dark-color-color);
-  margin-bottom: 40px;
-}
-
-#consent + label::before {
-  content: "";
-  display: inline-block;
-  width: 11px;
-  height: 11px;
-  border: 1px solid var(--accent-dark-color-color);
-  background-color: #ffffff;
-  margin-right: 17px;
-}
-
-#consent:checked + label::before {
-  border-color: var(--accent-dark-color-color);
-  background-color: var(--accent-dark-color-color);
+.box4 {
+  appearance: none;
+  background: url(../../img/sort-down-solid.svg) no-repeat right;
+  background-position-x: calc(100% - 8px);
+  background-position-y: calc(100% - 6px);
 }
 
 .indicator {
@@ -827,38 +831,6 @@ h1, h2, h3, h4, h5, h6 {
   grid-column-start: 1;
   grid-column-end: 4;
   text-align: center;
-}
-
-#consent-disc {
-  position: absolute;
-  z-index: -1;
-  opacity: 0;
-}
-
-#consent-disc + label {
-  display: inline-flex;
-  align-items: center;
-  user-select: none;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 30px;
-  color: var(--accent-dark-color-color);
-}
-
-#consent-disc + label::before {
-  content: "";
-  display: inline-block;
-  width: 11px;
-  height: 11px;
-  border: 1px solid var(--accent-dark-color-color);
-  background-color: #ffffff;
-  margin-right: 17px;
-}
-
-#consent-disc:checked + label::before {
-  border-color: var(--accent-dark-color-color);
-  background-color: var(--accent-dark-color-color);
 }
 
 .footer {
