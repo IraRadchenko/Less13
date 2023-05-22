@@ -1,6 +1,7 @@
 .questions {
   padding-top: 60px;
   padding-bottom: 60px;
+
   &__title {
     font-weight: 700;
     font-size: 48px;
@@ -8,10 +9,12 @@
     margin-top: 0;
     margin-bottom:59px;
   }
+
   &__body {
     margin-left: 37px;
   }
 }
+
 .question{
   display: flex;
 
@@ -26,7 +29,6 @@
     content: '\2716';
     color: var(--accent-dark-color-color);
   }
-
 
   &__title{
     display: inline-block;

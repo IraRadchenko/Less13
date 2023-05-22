@@ -386,6 +386,18 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--accent-dark-color-color);
 }
 
+.form__input__item {
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #000000;
+  border-radius: var(--border-radius);
+  font-size: 18px;
+  line-height: 1.333;
+  color: #000000;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+}
+
 .consent-check {
   position: absolute;
   z-index: -1;
@@ -567,16 +579,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 50px;
   margin-bottom: 40px;
 }
-.form__input__item {
-  border: 1px solid #000000;
-  border-radius: var(--border-radius);
-  font-size: 18px;
-  line-height: 1.333;
-  color: #000000;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 20px;
-}
 
 .box2 {
   grid-column-start: 2;
@@ -588,7 +590,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .box4 {
   appearance: none;
-  background: url(../img/sort-down-solid.svg) no-repeat right;
+  background: url(../svg-icons/sort-down-solid.svg) no-repeat right;
   background-position-x: calc(100% - 8px);
   background-position-y: calc(100% - 6px);
 }
@@ -611,7 +613,6 @@ h1, h2, h3, h4, h5, h6 {
 .indicator__card__number {
   font-weight: 900;
   font-size: 48px;
-  line-height: 1.5;
   margin-top: 0;
   margin-bottom: 14px;
 }
@@ -624,7 +625,6 @@ h1, h2, h3, h4, h5, h6 {
 .indicator__card__desk {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   margin-top: 20px;
   margin-bottom: 0;
 }
@@ -637,7 +637,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-weight: 700;
   font-size: 48px;
-  line-height: 72px;
   margin: 0;
 }
 .response__body {
@@ -666,13 +665,13 @@ h1, h2, h3, h4, h5, h6 {
   gap: 32px;
   font-weight: 500;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.333;
   margin-bottom: 30px;
 }
 .response__card__desk {
   font-weight: 300;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.333;
   margin: 0;
 }
 
@@ -687,7 +686,6 @@ h1, h2, h3, h4, h5, h6 {
 .data__title {
   font-weight: 700;
   font-size: 48px;
-  line-height: 72px;
   margin: 0;
 }
 .data__body {
@@ -701,7 +699,7 @@ h1, h2, h3, h4, h5, h6 {
 .data__card__title {
   font-weight: 700;
   font-size: 24px;
-  line-height: 32px;
+  line-height: 1.333;
   margin-top: 24px;
   margin-bottom: 0;
 }
@@ -772,7 +770,6 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
-  line-height: 72px;
   color: var(--accent-dark-color-color);
   margin-top: 0;
   margin-bottom: 20px;
@@ -782,7 +779,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -805,7 +801,6 @@ h1, h2, h3, h4, h5, h6 {
 .discount__title {
   font-weight: 700;
   font-size: 48px;
-  line-height: 72px;
   text-align: center;
   margin-top: 0;
   margin-bottom: 60px;
@@ -847,7 +842,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer__item {
   font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
 }
 .footer__link {
   display: flex;

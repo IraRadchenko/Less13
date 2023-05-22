@@ -24,10 +24,24 @@
     color: var(--accent-dark-color-color);
   }
 }
+
+.form__input__item {
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #000000;
+  border-radius: var(--border-radius);
+  font-size: 18px;
+  line-height: 1.333;
+  color: #000000;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+}
+
 .consent-check{
     position: absolute;
     z-index: -1;
     opacity: 0;
+
   &+label{
     display: inline-flex;
     align-items: center;
@@ -39,6 +53,7 @@
     color: var(--accent-dark-color-color);
     margin-bottom: 40px;
   }
+
   &+label::before {
     content: '';
     display: inline-block;
@@ -49,6 +64,7 @@
     background-color: #ffffff;
     margin-right: 17px;
   }
+
   &:checked+label::before {
     background-color: var(--accent-dark-color-color);
   }

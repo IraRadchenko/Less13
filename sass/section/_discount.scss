@@ -5,18 +5,17 @@
   &__title {
     font-weight: 700;
     font-size: 48px;
-    line-height: 72px;
     text-align: center;
     margin-top: 0;
     margin-bottom: 60px;
   }
+
   &__form {
     display: grid;
     grid-template-columns: 370px 370px 370px;
     column-gap: 30px;
     row-gap: 33px;
     align-content: center;
-
 
     &-btn{
       max-width: 370px;

@@ -5,7 +5,6 @@
     text-align: center;
     font-weight: 700;
     font-size: 48px;
-    line-height: 72px;
     margin: 0;
   }
   &__body{
@@ -18,7 +17,6 @@
     border: transparent;
     cursor: pointer;
   }
-
 }
 
 .response__card{
@@ -36,14 +34,14 @@
     gap: 32px;
     font-weight: 500;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.333;
     margin-bottom: 30px;
 
   }
   &__desk{
     font-weight: 300;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.333;
     margin: 0;
   }
 }

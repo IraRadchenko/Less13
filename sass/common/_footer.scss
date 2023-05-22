@@ -16,12 +16,11 @@
     &__item {
       font-weight: 500;
       font-size: 14px;
-      line-height: 24px;
+      line-height: 1.714;
 
     }
       &__link{
         display: flex;
-
         align-items: center;
         text-decoration: none;
         cursor: pointer;
@@ -31,7 +30,6 @@
           width: 18px;
           height: 18px;
           margin-right: 10px;
-
         }
 
       &:hover{

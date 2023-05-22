@@ -23,16 +23,7 @@
     margin-top: 50px;
     margin-bottom: 40px;
 
-    &__item {
-      border: 1px solid #000000;
-      border-radius: var(--border-radius);
-      font-size: 18px;
-      line-height: 1.333;
-      color: #000000;
-      padding-top: 6px;
-      padding-bottom: 6px;
-      padding-left: 20px;
-    }
+
   }
 }
 
@@ -45,7 +36,7 @@
 }
 .box4 {
   appearance: none;
-  background: url(../img/sort-down-solid.svg) no-repeat right;
+  background: url(../svg-icons/sort-down-solid.svg) no-repeat right;
   background-position-x: calc(100% - 8px);
   background-position-y: calc(100% - 6px);
 }
